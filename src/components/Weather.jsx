@@ -77,18 +77,12 @@ const Weather = () => {
                 location: data.name,
                 icon: icon
 
-            });
-
-
-            
+            });            
         } catch (error) {
             setWeatherData(false);
-            console.error("error in fetching Weather data");
-
-            
+            console.error("error in fetching Weather data");            
         }
     }
-
     useEffect(()=>{
         search("New York");
     },[])

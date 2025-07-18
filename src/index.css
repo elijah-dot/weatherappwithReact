@@ -6,11 +6,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+   
+   background-image: url("./assets/tree.jpg");} 
 
 .app {
   min-height:100vh;
   display:grid;
-  background-color:#e2d4ff;
+  /* background-color:#e2d4ff; */
+   /* background-image: url("./assets/drop.jpg"); */
 
 }
 
